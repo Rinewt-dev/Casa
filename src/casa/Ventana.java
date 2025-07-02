@@ -1,7 +1,7 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+*/
 package casa;
 
 /**
@@ -14,7 +14,7 @@ public class Ventana {
     private Persiana persiana;
     
     public Ventana(String color, Persiana persiana){
-        this.colorMarco = colorMarco;
+        this.colorMarco = color;
         this.persiana = persiana;
     }
     
@@ -29,6 +29,6 @@ public class Ventana {
     public Persiana getPersiana(){
         return persiana;
         
-    }
+    } 
     
 }

@@ -19,14 +19,15 @@ public class Main {
         Puerta puerta = new Puerta(true,1234);
         Calefactor calefactor = new Calefactor();
         
-        Casa casa1 = new Casa(80.15, puerta, ventana, calefactor);
+        CasaDeCampo miFinca = new CasaDeCampo(80.15, puerta, ventana, calefactor, 10);
         
-        casa1.sell();
-        casa1.getPuerta().openCodig();
-        casa1.getVentana().openWindow();
-        casa1.getVentana().getPersiana().up();
-        casa1.getCalefactor().fijarTemperatura(25.5);
-        casa1.getCalefactor().turnOff();
+        miFinca.sell();
+        miFinca.getPuerta().openCodig();
+        miFinca.getVentana().openWindow();
+        miFinca.getVentana().getPersiana().up();
+        miFinca.getCalefactor().fijarTemperatura(25.5);
+        miFinca.getCalefactor().turnOff();
+        miFinca.cultivar();
     }
     
 }

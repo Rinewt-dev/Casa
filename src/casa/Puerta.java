@@ -18,7 +18,7 @@ public class Puerta {
         this.codigoAcceso = codigoAcesso;
     }
     
-    public void openCodig(int codigo){
+    public void openCodig(){
         System.out.println("Introduzca el codigo para abrir la puerta: ");
         int codigoIngresado = scanner.nextInt();
         if(codigoIngresado == codigoAcceso){

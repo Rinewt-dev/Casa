@@ -8,7 +8,7 @@ package casa;
  *
  * @author richa
  */
-public class Casa {
+public abstract class Casa {
 
     private double areaCuadrada;
     private Puerta puerta;
@@ -38,5 +38,7 @@ public class Casa {
     public Calefactor getCalefactor() {
         return calefactor;
     }
+    
+    public abstract void mostrarDetalles();
 
 }
